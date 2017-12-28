@@ -4,9 +4,9 @@ import asyncio
 
 
 paths = list()
-paths.append("data\yxfabrikat.txt")
-paths.append("data\yxtyp.txt")
-paths.append("data\kroppsdel.txt")
+paths.append("data/yxfabrikat.txt")
+paths.append("data/yxtyp.txt")
+paths.append("data/kroppsdel.txt")
 
 sets = [set(), set(), set()]
 
@@ -60,4 +60,4 @@ async def on_message(message):
 
         await client.edit_message(tmp, yxa().format(m))
 
-client.run(token)
+client.run(TOKEN)
