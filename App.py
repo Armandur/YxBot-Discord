@@ -1,8 +1,8 @@
-if sys.argv[1] == "DOCKERBUILD":
-    return 0
-
 import discord
 import sys
+
+if sys.argv[1] == "DOCKERBUILD":
+    sys.exit()
 
 from YxBot import YxBot
 
