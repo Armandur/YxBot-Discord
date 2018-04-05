@@ -1,3 +1,6 @@
+if sys.argv[1] == "DOCKERBUILD"
+    return 0
+
 import discord
 import sys
 
